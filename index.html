@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function</title>
+</head>
+<body>
+    <script>
+        /* function defination */
+        function greetStudents()
+        {
+            console.log("hello student")
+        }
+
+    /* calling function */
+        greetStudents();
+
+    /* program */
+    function greetstudent(studentName)
+    {
+        console.log(`Hello ${studentName}!`);
+    }
+
+    greetstudent("Darshika");
+
+    /* program 
+    function calculateArea(length,breadth)
+    {
+        const area = length * breadth;
+        console.log(`Area for length ${length} and breadth ${breadth} is ${area}`)
+    }
+   calculateArea(5,6); */
+
+    /* program return function */
+   function calculateArea(length,breadth)
+    {
+        const area = length * breadth;
+        return area;
+    }
+    const result = calculateArea(5,6);
+    console.log(`Area of table is: ${result} sq. meters`);
+
+    const result1 = calculateArea(5,10);
+    console.log(`Area of wall is: ${result1} sq. meters`);
+    </script>
+</body>
+</html>
